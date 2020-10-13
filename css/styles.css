@@ -1,9 +1,13 @@
-body{
+#home{
     background-image:url(../img/image2.jpeg); 
     background-size: cover;
     background-repeat: no-repeat;
    
     color:white;
+}
+#gallery{
+        background-color: black;
+        color: white;
 }
 nav>ul>li>a{
     padding:18px;
@@ -29,4 +33,8 @@ nav>ul>li>a{
       font-family: 'Berkshire Swash', cursive;
       font-size: 45px;
       
-  }        
+  } 
+  
+  .order-page{
+      background-color: blueviolet;
+  }
