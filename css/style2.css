@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    color: white;
+}
+nav>ul>li>a{
+    padding:18px;
+    
+    text-transform:uppercase;
+    text-decoration:none;
+    display:block;
+    color: wheat;
+  }
+  nav>ul {
+    text-align:right;
+  }
+  ul>li {
+    display:inline-block;
+  } 
+  li a:hover{
+      color: coral;
+  }
+  
