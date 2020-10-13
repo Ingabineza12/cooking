@@ -1,8 +1,32 @@
-/* .home-page{
-    background-image:url('https://images.pexels.com/photos/256318/pexels-photo-256318.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'); 
+body{
+    background-image:url(../img/image2.jpeg); 
     background-size: cover;
     background-repeat: no-repeat;
-    height: 900px;
-
-    color:rgb(10, 10, 10);
-}    idea of a background Image           */
+   
+    color:white;
+}
+nav>ul>li>a{
+    padding:18px;
+    
+    text-transform:uppercase;
+    text-decoration:none;
+    display:block;
+    color: wheat;
+  }
+  nav>ul {
+    text-align:right;
+  }
+  ul>li {
+    display:inline-block;
+  } 
+  li a:hover{
+      color: coral;
+  }
+  h1{
+      text-align: center;
+      margin-top: 210px;
+      color: yellow;
+      font-family: 'Berkshire Swash', cursive;
+      font-size: 45px;
+      
+  }        
