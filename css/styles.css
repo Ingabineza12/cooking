@@ -1,9 +1,11 @@
 #home{
-    background-image:url(../img/image2.jpeg); 
+    background-image:url(../img/pizz.png); 
     background-size: cover;
     background-repeat: no-repeat;
-   height: 600px;
+    height: 600px;
     color:white;
+  
+
 }
 #gallery{
         background-color: black;
@@ -38,11 +40,18 @@ nav>ul>li>a{
   h1{
       text-align: center;
       margin-top: 210px;
-      color: yellow;
+      color: rgb(80, 87, 117);
       font-family: 'Berkshire Swash', cursive;
       font-size: 45px;
-      
+      /* background-color: rgb(210, 229, 240, 0.5); */
+      /* border-radius:30px; */
+      padding: 2%;
+     /* width: 50%; */
   } 
+  #intro{
+ text-align: center;
+ }
+
  
 
   /*workshop styling*/
@@ -257,7 +266,7 @@ input[type="text"],input[type="email"],#textarea,input[type="submit"],button{
 
   }
   #order{
-    background-color:rgb(10, 59, 92);
+    background-color:rgb(80, 87, 117);
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: 700;
 
