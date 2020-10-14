@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&display=swap" rel="stylesheet">
     <title>Cooking</title>
 </head>
-<body>
+<body id="order">
+    <div class="container">
     <div class="order-page">
     <div id="navigation">
         <nav> 
@@ -21,29 +25,64 @@
            </ul>
         </nav>
     </div>
-        <h2>Order here</h2>
+      
 
 
-    </div>
    
-    <div class="social">
-        <div class="col-md-3">
-            <img height="30px" width="30px" src="img/twitter.png">
-        </div>
+    <h2 id="make">Make your Order</h2>
+               <form id="myform">
+                   
+                   <div class="form-group">
+<label for="sel1">Select the kind of food</label>
+<select class="form-control" id="food">
+    <option>CHEESE BURGER</option>
+    <option>GREEK SALAD WITH CHICKEN</option>
+    <option>PAPRIKA CHIPS</option>
+    <option>YELLOW RICE</option> 
+    <option>MONGOLIAN BEFF</option>
+    <option>CHOCOLATE COOKIES</option>
+    <option>ROAST CHICKEN WITH LEMON</option>
+    <option>POTATOES CHIPS</option>
+    <option>GRILLED SWEET POTATOES</option>
+
+</select>
+                   </div>
+
+                   
+                
+                   <div class="form-group" required>
+<label for="sel1">The number of plates you want</label>
+<input type="number" id="quantity" class="form-control" min="1" required>
+                   </div>
+                   <div class="form-group" required>
+                       <label for="sel1">Delivery option</label>
+                       <select class="form-control" id="delivery">
+                        <option value="1"> you will come to pick it</option>
+                        <option value="2">it will be delivered to you</option>
+                       </select>
+
+                   </div>
+                   <div class="form-group">
+<button type="submit" class="btn btn-outline-success"> confirm your order</button>
+                   </div>
+               </form>     
+            </div>
+
+
+
+
+
+               <div class="social">
         
-        <div class="col-md-3">
-            <img height="30px" width="30px" src="img/facebook.png">
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href=# class="fa fa-youtube"></a>
+                <a href="" class="fa fa-facebook"></a>
+                <a href="" class="fa fa-instagram"></a>
+            
         </div>
-        <div class="col-md-3">
-            <img height="30px" width="30px"src="img/skype.png">
-        </div>
-        
-        <div class="col-md-3">
-            <img height="30px" width="30px" src="img/instagram.png">
-        </div>
-        <div class="col-md-3">
-            <img height="30px" width="30px" src="img/gmail.png">
-        </div>
+           
     </div>
+</div>
 </body>
 </html>
