@@ -256,5 +256,15 @@ input[type="text"],input[type="email"],#textarea,input[type="submit"],button{
   margin-top: 40px;
 
   }
+  #order{
+    background-color:rgb(10, 59, 92);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 700;
+
+  }
+  #make{
+    margin-top: 50px;
+    margin-bottom: 80px;
+  }
 
 
