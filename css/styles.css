@@ -257,14 +257,22 @@ input[type="text"],input[type="email"],#textarea,input[type="submit"],button{
 
   }
   #order{
-    background-color:rgb(10, 59, 92);
+    background-color:black;
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: 700;
 
   }
   #make{
+    color: wheat;
     margin-top: 50px;
     margin-bottom: 80px;
   }
-
-
+  option{
+    font-weight: 700;
+   
+    
+  }
+  
+  input[type="number"]{
+background-color: transparent;
+  }
