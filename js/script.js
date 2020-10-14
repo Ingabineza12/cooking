@@ -60,6 +60,8 @@ $(document).ready(function(){
    });
 
 
+
+// submit button on contact
 $(document).ready(function () {
     $("#comment").submit(function (event) {
       event.preventDefault();
