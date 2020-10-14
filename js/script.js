@@ -74,3 +74,58 @@ $(document).ready(function () {
     });
   });
 
+
+
+
+
+  
+
+  var foodPrice =[900,600,400,1000,800,1100,700,500,1200]
+var deliverPrices=[0,100];
+$(document).ready(function(){
+ $('form#myform').submit(function(event){
+     event.preventDefault();
+     
+     var foodKind=parseInt($('#food').val());
+    
+     var plateQty=parseInt($('#quantity').val());
+     var platePick=parseInt($('#delivery').val());
+
+     var price=foodPrice[foodKind-1];
+
+     var DeliveryCost=deliverPrices[platePick-1];
+
+     newOrder=new Order(foodKind);
+     newTotal=new Total(price,plateQty,DeliveryCost);
+
+     if (platePick===1){
+         alert(" order is "+newOrder.fullOrder() + " click ok to see your bill ");
+         alert(" bill is "+newTotal.finalTotal() + "your food is ready,pick it");
+     }
+     else{
+         if(platePick===2){
+             prompt("enter location where you want your food to be delivered");
+             alert("your order has been received and it will be delivered,click ok to see full information of your order");
+             alert(" order is " +newOrder.fullOrder() + "click ok to see your bill");
+             alert(" bill is " +newTotal.finalTotal() + "your food will be delivered in 30minutes");
+         }
+     }
+ }) ;  
+});
+function Order(food){
+    this.food=food;
+   
+}
+Order.prototype.fullOrder=function(){
+    return this.food + " this is the kind of your food " ;
+
+};
+function Total(price,quantity,delivery){
+    this.price=price;
+    this.quantity=quantity;
+    this.delivery=delivery;
+
+}
+Total.prototype.finalTotal=function(){
+    return this.price*this.quantity+this.delivery;
+};
