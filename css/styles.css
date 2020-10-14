@@ -38,3 +38,65 @@ nav>ul>li>a{
   .order-page{
       background-color: blueviolet;
   }
+  
+  
+
+  #image{
+    margin-right: 3%; 
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 20px;
+    transition-duration: 0.2s;
+}
+
+
+#story{
+  text-align: center;
+}
+p{
+  color: black;
+  justify-content: center;
+}
+
+#img1{
+  margin-right: 3%; 
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 20px;
+  transition-duration: 0.2s;
+}
+
+#img1:hover{
+  box-shadow: 0 0 4px 3px;
+  transition: 0.5s;
+}
+
+#img1 img{
+  border-radius: 10px;
+}
+
+#img1 img:hover{
+  transform: scale(1.2);
+  transition-delay: 0.1s;
+ 
+}
+.row{
+  padding: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.row div{
+  width: 450px;
+}
+
+#story-us{
+  padding: 2%;
+}
+h2{
+  text-align: center;
+}
+#story1{
+  background-color: burlywood;
+}
