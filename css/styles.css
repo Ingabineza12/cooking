@@ -1,6 +1,27 @@
+
 body{
   background-color: black;
   color: white;
+}
+
+#home{
+    background-image:url(../img/pizz.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    color:white;
+
+}
+#gallery{
+        background-color: black;
+        color: white;
+}
+#contact{
+ background-color: black;
+  color: white;
+  margin: 25px;
+  font-family: 'Text Me One', sans-serif;
+
 }
 nav>ul>li>a{
     padding:18px;
@@ -19,14 +40,57 @@ nav>ul>li>a{
     display:inline-block;
   } 
   li a:hover{
-      color: gray;
+
+      color: rgb(192, 157, 157);
+      text-decoration:none;
+      background-color:rgb(80, 87, 117);
   }
   h1{
       text-align: center;
       margin-top: 210px;
-      color: yellow;
+      color: rgb(80, 87, 117);
       font-family: 'Berkshire Swash', cursive;
       font-size: 45px;
+      /* background-color: rgb(210, 229, 240, 0.5); */
+      /* border-radius:30px; */
+      padding: 2%;
+     /* width: 50%; */
+  } 
+  #intro{
+ text-align: center;
+ }
+
+ 
+
+  /*workshop styling*/
+  .works-page{
+    background-color: rgb(27, 30, 44);
+    color:wheat;
+  }
+  #workHeading{
+      text-align: center;
+      font-size: xx-large;
+      font-weight: 400;
+      font-style: italic;
+      font-family: 'Courier New', Courier, monospace;
+      padding-top: 90px;
+  }
+  #workPara{
+      text-align: center;
+      font-weight: 200;
+      font-family: 'Courier New', Courier, monospace;
+     padding-bottom: 100px;
+     padding-top: 60px;
+     padding-left: 15px;
+     padding-right: 15px;
+     color:wheat;
+  }
+  #name1,#name2,#name3,#name4,#name5,#name6,#name7,#name8,#name9{
+      font-size: 15px;
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+      padding-top: 10px;
+      padding-bottom: 70px;
       
   }      
   
@@ -57,3 +121,269 @@ nav>ul>li>a{
    filter: grayscale(0);
    transform: scale(1.1);
  }
+
+     
+  .showing{
+    display: none;
+    color: wheat;
+} 
+
+#one,#two,#three,#four,#five,#six,#seven,#eight,#nine{
+  height: 250px;
+  width: 300px;
+}
+
+.images1,.images2,.images3{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    
+}
+.what-do > p{
+    text-align: center;
+}
+
+.drinks>h3{
+    color: wheat;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: larger;
+}
+#drinksVid{
+    margin-left: 300px;
+    margin-bottom: 60px;
+}
+
+
+
+
+  #image{
+    margin-right: 3%; 
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 20px;
+    transition-duration: 0.2s;
+}
+
+
+#story{
+  text-align: center;
+}
+p{
+  color: black;
+  justify-content: center;
+}
+
+#img1{
+  margin-right: 3%; 
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 20px;
+  transition-duration: 0.2s;
+}
+
+#img1:hover{
+  box-shadow: 0 0 4px 3px;
+  transition: 0.5s;
+}
+
+#img1 img{
+  border-radius: 10px;
+}
+
+#img1 img:hover{
+  transform: scale(1.2);
+  transition-delay: 0.1s;
+ 
+}
+.row{
+  padding: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.row div{
+  width: 450px;
+}
+
+#story-us{
+  padding: 2%;
+}
+h2{
+  text-align: center;
+}
+#story1{
+  background-color: burlywood;
+}
+
+
+.fa-facebook{
+  /* background:darkblue; */
+  color:white;
+}
+.fa-google {
+  /* background: #dd4b39; */
+  color: white;
+}
+.fa-youtube{
+  /* background:red; */
+  color:white;
+}
+
+  .fa-linkedin {
+    /* background: #007bb5; */
+    color: white;
+  }
+  .fa-instagram{
+      /* background-color:#5e184d; */
+      color: white;
+  }
+    .fa {
+    padding:30px;
+    text-decoration:none;
+    /* border-radius:30%; */
+  }
+
+  .social{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(27, 30, 44);
+    margin: 5px 5px; 
+  }
+
+  
+  #cont{
+    color: chocolate;
+    padding-top: 25px;
+    text-align: center;
+    animation: bounce 3s infinite;
+  }
+
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-50px);
+    }
+    50% {
+      transform: translateY(-50px);
+    }
+  }
+  .form-control::-webkit-input-placeholder{
+    color:wheat;
+}
+#name,#anyemail,#textarea{
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+#textarea{
+    width: 750px;
+
+}
+input[type="text"],input[type="email"],#textarea,input[type="submit"],button{
+  background-color: transparent;
+  color: white;
+  text-align: center;
+}
+  button{
+    margin-top: 30px;
+    margin-left: 325px;
+   border-radius: 10px;
+  }
+  #column1{
+    margin-left: 250px;
+  }
+  footer{
+  text-align: center;
+  margin-top: 40px;
+
+  }
+  #order{
+
+    background-color:black;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 700;
+
+  }
+  #make{
+    color: wheat;
+    margin-top: 50px;
+    margin-bottom: 80px;
+  }
+
+  option{
+    font-weight: 700;
+   
+    
+  }
+  
+  input[type="number"]{
+background-color: transparent;
+  }
+
+
+
+  .navigation-container{
+    width: 100%;
+    height: 100px;
+    background-color: #1b1a1a;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0, 20);
+    padding-bottom: 0%;
+}
+.navigation-content{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0px 12px;
+}
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: "montserrat",sans-serif;
+}
+.testimonials{
+  /* padding: 20px 0; */
+  background: rgb(136, 134, 132);
+  color: black;
+  text-align: center;
+}
+.inner{
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+.border{
+  width: 160px;
+  height: 5px;
+  background: rgb(192, 192, 192);
+  margin: 26px auto;
+}
+.testimonials{
+  background: burlywood;
+  color: black;
+  padding: 30px;
+}
+.testimonials img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.name{
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+h1{
+  color: black;
+}
+.social2{
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(22, 22, 22);
+  margin: 5px 5px; 
+}
