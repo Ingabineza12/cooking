@@ -1,3 +1,8 @@
+
+body{
+  background-color: black;
+  color: white;
+
 #home{
     background-image:url(../img/pizz.png); 
     background-size: cover;
@@ -16,6 +21,7 @@
   color: white;
   margin: 25px;
   font-family: 'Text Me One', sans-serif;
+
 }
 nav>ul>li>a{
     padding:18px;
@@ -23,7 +29,7 @@ nav>ul>li>a{
     text-transform:uppercase;
     text-decoration:none;
     display:block;
-    color: wheat;
+    color: coral;
   }
   nav>ul {
     text-align:right;
@@ -32,10 +38,10 @@ nav>ul>li>a{
     display:inline-block;
   } 
   li a:hover{
+
       color: rgb(192, 157, 157);
       text-decoration:none;
       background-color:rgb(80, 87, 117);
-
   }
   h1{
       text-align: center;
@@ -84,8 +90,36 @@ nav>ul>li>a{
       padding-top: 10px;
       padding-bottom: 70px;
       
+  }      
+  
+  /**gallery**/
+ .gallery{
+   background-color: black;
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin: 10px 50px;
+ }
+ h2{
+  text-align: center;
+  color:gold;
+  font-size: 60px;
+  padding-top: 4%;
+  padding-bottom: 3%;
+  font-family: 'Shadows Into Light', cursive;
+} 
+ .gallery img{
+   width: 300px;
+   height: 300px;
+   padding: 0.7px;
+   border-radius: 10px;
+   filter: grayscale(10%);
+   transition: 1s;
+ }
+ .gallery img:hover{
+   filter: grayscale(0);
+   transform: scale(1.1);
+ }
 
-  }
      
   .showing{
     display: none;
