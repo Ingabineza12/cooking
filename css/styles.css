@@ -90,6 +90,19 @@ nav>ul>li>a{
     text-align: center;
 }
 
+.drinks>h3{
+    color: wheat;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: larger;
+}
+#drinksVid{
+    margin-left: 300px;
+    margin-bottom: 60px;
+}
+
+
 .fa-facebook{
     /* background:darkblue; */
     color:white;
