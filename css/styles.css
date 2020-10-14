@@ -30,6 +30,8 @@ nav>ul>li>a{
     text-decoration:none;
     display:block;
     color: coral;
+    font-family: 'Tangerine', cursive;
+    font-size: 17px;
   }
   nav>ul {
     text-align:right;
