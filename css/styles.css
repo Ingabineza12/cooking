@@ -346,23 +346,23 @@ background-color: transparent;
   font-family: "montserrat",sans-serif;
 }
 .testimonials{
-  /* padding: 20px 0; */
+  padding: 20px 0;
   background: rgb(136, 134, 132);
   color: black;
   text-align: center;
 }
 .inner{
-  max-width: 1200px;
+  max-width: 1000px;
   margin: auto;
   overflow: hidden;
-  padding: 0 20px;
+  padding: 0 20px; 
 }
-.border{
+ /* .border{
   width: 160px;
   height: 5px;
   background: rgb(192, 192, 192);
-  margin: 26px auto;
-}
+ 
+}  */
 .testimonials{
   background: burlywood;
   color: black;
@@ -378,8 +378,10 @@ background-color: transparent;
   text-transform: uppercase;
   margin: 20px 0;
 }
-h1{
-  color: black;
+h1{  /*  testimonials title */
+  color: rgb(2, 2, 2);
+  margin-top: auto;
+  
 }
 .social2{
   text-align: center;
