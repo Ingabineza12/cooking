@@ -1,9 +1,6 @@
 body{
-    background-image:url(../img/image2.jpeg); 
-    background-size: cover;
-    background-repeat: no-repeat;
-   
-    color:white;
+  background-color: black;
+  color: white;
 }
 nav>ul>li>a{
     padding:18px;
@@ -11,7 +8,7 @@ nav>ul>li>a{
     text-transform:uppercase;
     text-decoration:none;
     display:block;
-    color: wheat;
+    color: coral;
   }
   nav>ul {
     text-align:right;
@@ -20,7 +17,7 @@ nav>ul>li>a{
     display:inline-block;
   } 
   li a:hover{
-      color: coral;
+      color: gray;
   }
   h1{
       text-align: center;
@@ -29,4 +26,32 @@ nav>ul>li>a{
       font-family: 'Berkshire Swash', cursive;
       font-size: 45px;
       
-  }        
+  }      
+  
+  /**gallery**/
+ .gallery{
+   background-color: black;
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin: 10px 50px;
+ }
+ h2{
+  text-align: center;
+  color:gold;
+  font-size: 60px;
+  padding-top: 4%;
+  padding-bottom: 3%;
+  font-family: 'Shadows Into Light', cursive;
+} 
+ .gallery img{
+   width: 300px;
+   height: 300px;
+   padding: 0.7px;
+   border-radius: 10px;
+   filter: grayscale(10%);
+   transition: 1s;
+ }
+ .gallery img:hover{
+   filter: grayscale(0);
+   transform: scale(1.1);
+ }
