@@ -30,7 +30,10 @@ nav>ul>li>a{
     display:inline-block;
   } 
   li a:hover{
-      color: coral;
+      color: rgb(192, 157, 157);
+      text-decoration:none;
+      background-color:rgb(80, 87, 117);
+
   }
   h1{
       text-align: center;
@@ -40,10 +43,105 @@ nav>ul>li>a{
       font-size: 45px;
       
   } 
-  
-  .order-page{
-      background-color: blueviolet;
+ 
+
+  /*workshop styling*/
+  .works-page{
+    background-color: rgb(27, 30, 44);
+    color:wheat;
   }
+  #workHeading{
+      text-align: center;
+      font-size: xx-large;
+      font-weight: 400;
+      font-style: italic;
+      font-family: 'Courier New', Courier, monospace;
+      padding-top: 90px;
+  }
+  #workPara{
+      text-align: center;
+      font-weight: 200;
+      font-family: 'Courier New', Courier, monospace;
+     padding-bottom: 100px;
+     padding-top: 60px;
+     padding-left: 15px;
+     padding-right: 15px;
+  }
+  #name1,#name2,#name3,#name4,#name5,#name6,#name7,#name8,#name9{
+      font-size: 15px;
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+      padding-top: 10px;
+      padding-bottom: 70px;
+      
+
+  }
+     
+  .showing{
+    display: none;
+} 
+
+#one,#two,#three,#four,#five,#six,#seven,#eight,#nine{
+  height: 250px;
+  width: 300px;
+}
+
+.images1,.images2,.images3{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    
+}
+.what-do > p{
+    text-align: center;
+}
+
+.drinks>h3{
+    color: wheat;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: larger;
+}
+#drinksVid{
+    margin-left: 300px;
+    margin-bottom: 60px;
+}
+
+
+.fa-facebook{
+    /* background:darkblue; */
+    color:white;
+  }
+  .fa-google {
+    /* background: #dd4b39; */
+    color: white;
+  }
+  .fa-youtube{
+    /* background:red; */
+    color:white;
+  }
+  
+  .fa-linkedin {
+    /* background: #007bb5; */
+    color: white;
+  }
+  .fa-instagram{
+      /* background-color:#5e184d; */
+      color: white;
+  }
+    .fa {
+    padding:30px;
+    text-decoration:none;
+    /* border-radius:30%; */
+  }
+
+  .social{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(27, 30, 44);
+    margin: 5px 5px;
+
   #one{
     
     color: chocolate;
@@ -89,4 +187,5 @@ input[type="text"],input[type="email"],#textarea,input[type="submit"],button{
   footer{
   text-align: center;
   margin-top: 40px;
+
   }
