@@ -1,49 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link href="css/styles.css" rel="stylesheet">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/script.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap" rel="stylesheet">
     <title>Cooking</title>
 </head>
-<body>
-    <div class="contacts-page">
-    <div id="navigation">
-        <nav> 
-           <ul>
-             <li><a href="index.html">Home</a></li>
-             <li><a href="works.html">Workshop</a></li>
-             <li><a href="order.html">Order</a></li>
-             <li><a href="story.html"> Our story</a></li>
-             <li><a href="contacts.html"> Contact us</a></li>
-             <li><a href="gallery.html"> Gallery</a></li>
 
-           </ul>
-        </nav>
+<body id="contact">
+    <div class="contain">
+        <div id="navigation">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="works.html">Workshop</a></li>
+                    <li><a href="order.html">Order</a></li>
+                    <li><a href="story.html"> Our story</a></li>
+                    <li><a href="contacts.html"> Contact us</a></li>
+                    <li><a href="gallery.html"> Gallery</a></li>
+
+                </ul>
+            </nav>
+        </div>
+        <h3 id="cont"> CONTACT US</h3>
+
+        <div id="column1">
+
+            <p style="color: yellow;margin-top: 35px; margin-left: 95px;margin-bottom: 30px;">Feel free to contact us
+              or  ask information about our services:</p>
+            <form action="" id="comment">
+                <div class="form-inline">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Name...." name="anyname" id="name"
+                            size="30" value="" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email...." name="anyemail" id="anyemail"
+                            size="30" value="" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <textarea class="form-control" rows="4" id="textarea" placeholder="Your message here...."
+                        required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+                </div>
+
+
+            </form>
+        </div>
+
     </div>
-        <h2> Talk to us</h2>
-
-
     </div>
 
-<div class="social">
-        <div class="col-md-3">
-            <img height="30px" width="30px" src="img/twitter.png">
-        </div>
-        
-        <div class="col-md-3">
-            <img height="30px" width="30px" src="img/facebook.png">
-        </div>
-        <div class="col-md-3">
-            <img height="30px" width="30px"src="img/skype.png">
-        </div>
-        
-        <div class="col-md-3">
-            <img height="30px" width="30px" src="img/instagram.png">
-        </div>
-        <div class="col-md-3">
-            <img height="30px" width="30px" src="img/gmail.png">
-        </div>
-</div>
+    <footer>
+
+        <img height="30px" width="30px" src="img/twitter.png">
+        <img height="30px" width="30px" src="img/facebook.png">
+        <img height="30px" width="30px" src="img/skype.png">
+
+    </footer>
+    </div>
+
 </body>
+
 </html>
