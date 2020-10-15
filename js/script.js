@@ -86,10 +86,12 @@ $(document).ready(function(){
  $('form#myform').submit(function(event){
      event.preventDefault();
      
-     var foodKind=parseInt($('#food').val());
+     var foodKind=$('#food').val();
     
      var plateQty=parseInt($('#quantity').val());
-     var platePick=parseInt($('#delivery').val());
+   
+     var platePick=$('#delivery').val();
+     
 
      var price=foodPrice[foodKind-1];
 

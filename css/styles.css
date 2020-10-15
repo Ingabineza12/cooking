@@ -1,10 +1,15 @@
+
+body{
+  background-color: black;
+  color: white;
+}
+
 #home{
     background-image:url(../img/pizz.png); 
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
     color:white;
-  
 
 }
 #gallery{
@@ -16,6 +21,7 @@
   color: white;
   margin: 25px;
   font-family: 'Text Me One', sans-serif;
+
 }
 nav>ul>li>a{
     padding:18px;
@@ -23,7 +29,9 @@ nav>ul>li>a{
     text-transform:uppercase;
     text-decoration:none;
     display:block;
-    color: wheat;
+    color: coral;
+    font-family: 'Tangerine', cursive;
+    font-size: 17px;
   }
   nav>ul {
     text-align:right;
@@ -32,10 +40,10 @@ nav>ul>li>a{
     display:inline-block;
   } 
   li a:hover{
+
       color: rgb(192, 157, 157);
       text-decoration:none;
       background-color:rgb(80, 87, 117);
-
   }
   h1{
       text-align: center;
@@ -84,8 +92,36 @@ nav>ul>li>a{
       padding-top: 10px;
       padding-bottom: 70px;
       
+  }      
+  
+  /**gallery**/
+ .gallery{
+   background-color: black;
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin: 10px 50px;
+ }
+ h2{
+  text-align: center;
+  color:gold;
+  font-size: 60px;
+  padding-top: 4%;
+  padding-bottom: 3%;
+  font-family: 'Shadows Into Light', cursive;
+} 
+ .gallery img{
+   width: 300px;
+   height: 300px;
+   padding: 0.7px;
+   border-radius: 10px;
+   filter: grayscale(10%);
+   transition: 1s;
+ }
+ .gallery img:hover{
+   filter: grayscale(0);
+   transform: scale(1.1);
+ }
 
-  }
      
   .showing{
     display: none;
@@ -212,7 +248,7 @@ h2{
 
   .social{
     text-align: center;
-    padding: 10px;
+    /* padding: 10px; */
     background-color: rgb(27, 30, 44);
     margin: 5px 5px; 
   }
@@ -310,23 +346,23 @@ background-color: transparent;
   font-family: "montserrat",sans-serif;
 }
 .testimonials{
-  /* padding: 20px 0; */
+  padding: 20px 0;
   background: rgb(136, 134, 132);
   color: black;
   text-align: center;
 }
 .inner{
-  max-width: 1200px;
+  max-width: 1000px;
   margin: auto;
   overflow: hidden;
-  padding: 0 20px;
+  padding: 0 20px; 
 }
-.border{
+ /* .border{
   width: 160px;
   height: 5px;
   background: rgb(192, 192, 192);
-  margin: 26px auto;
-}
+ 
+}  */
 .testimonials{
   background: burlywood;
   color: black;
@@ -342,14 +378,30 @@ background-color: transparent;
   text-transform: uppercase;
   margin: 20px 0;
 }
-h1{
-  color: black;
+h1{  /*  testimonials title */
+  color: rgb(2, 2, 2);
+  margin-top: auto;
+  
 }
 .social2{
   text-align: center;
-  padding: 10px;
+  /* padding: 5px; */
   background-color: rgb(22, 22, 22);
   margin: 5px 5px; 
 }
 
-
+#story-title{
+  text-align: center;
+  color: rgb(58, 38, 24);
+  font-size: 50px;
+  font-family: 'Chilanka', cursive;
+}
+#storyus{
+  font-size:20px ;
+}
+.test{
+  font-family: 'Josefin Sans', sans-serif;
+  color: black;
+  font-weight: 700;
+  font-size: 18px;
+}
