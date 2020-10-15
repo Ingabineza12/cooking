@@ -1,6 +1,6 @@
 
 # **COOK WITH US!**
-# This is a website of COOK WITH US with its online order and delivery servises,checkout cooking recipes. It will enable people search for the recipe of the kind of food they want to cook, it will also help for that people  who are not hands on to make their orders and within afew minutes food will be at their door steps.
+# This is a website of COOK WITH US its online order and delivery servises,checkout cooking recipes. It will enable people search for the recipe of the kind of food they want to cook, it will also help for that people  who are not hands on to make their orders and within afew minutes food will be at their door steps.
 #### By 
 * olive kaitesi
 * Deborah Mugiraneza Ingabire 
@@ -22,7 +22,7 @@
 ## Contact details
 Any issues or have questions, ideas or concerns?
  Please Get in touch.
-  * Hearttocook.@gmail.com
+  * cookwithus.@gmail.com
   * +25078171613 
 ### License
- **Food for the Heart Cook**
+ **cook with us**
