@@ -309,9 +309,11 @@ input[type="text"],input[type="email"],#textarea,input[type="submit"],button{
 
   }
   #make{
-    color: wheat;
+    color:chocolate;
     margin-top: 50px;
     margin-bottom: 80px;
+    font-family: 'Piedra', cursive;
+    font-size: 50px;
   }
 
   option{
@@ -405,3 +407,5 @@ h1{  /*  testimonials title */
   font-weight: 700;
   font-size: 18px;
 }
+
+ 
