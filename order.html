@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,84 +8,109 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&display=swap" rel="stylesheet">
     <title>Cooking</title>
 </head>
+
 <body id="order">
     <div class="container">
-    <div class="order-page">
-    <div id="navigation">
-        <nav> 
-           <ul>
-             <li><a href="index.html">Home</a></li>
-             <li><a href="works.html">Workshop</a></li>
-             <li><a href="order.html">Order</a></li>
-             <li><a href="story.html">our story</a></li>
-             <li><a href="contacts.html"> Contact us</a></li>
-             <li><a href="gallery.html"> Gallery</a></li>
+        <div class="order-page">
+            <div id="navigation">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="works.html">Workshop</a></li>
+                        <li><a href="order.html">Order</a></li>
+                        <li><a href="story.html">our story</a></li>
+                        <li><a href="contacts.html"> Contact us</a></li>
+                        <li><a href="gallery.html"> Gallery</a></li>
 
-           </ul>
-        </nav>
-    </div>
-      
-
-
-   
-    <h2 id="make">Make your Order</h2>
-               <form id="myform">
-                   
-                <div class="form-group">
-                    <label for="sel1" style="color: wheat;">Select the kind of food</label>
-                    <select class="form-control" id="food" style="background-color: transparent;color:wheat;">
-                        <option value="1">CHEESE BURGER </option>
-                        <option value="2">GREEK SALAD WITH CHICKEN</option>
-                        <option value="3">PAPRIKA CHIPS</option>
-                        <option value="4">YELLOW RICE</option> 
-                        <option value="5">MONGOLIAN BEFF</option>
-                        <option value="6">CHOCOLATE COOKIES</option>
-                        <option value="7">ROAST CHICKEN WITH LEMON</option>
-                        <option value="8">POTATOES CHIPS</option>
-                        <option value="9">GRILLED SWEET POTATOES</option>
-
-                    </select>
-                 </div>
-
-                   
-                
-                   <div class="form-group" required>
-<label for="sel1" style="color:wheat;">The number of plates you want</label>
-<input type="number" id="quantity" class="form-control" min="1" required>
-                   </div>
-                   <div class="form-group" required>
-                       <label for="sel1" style="color: wheat;">Delivery option</label>
-                       <select class="form-control" id="delivery" style="background-color: transparent;color: wheat;">
-                        <option value="1"> you will come to pick it</option>
-                        <option value="2">it will be delivered to you</option>
-                       </select>
-
-                   </div>
-                   <div class="form-group">
-<button type="submit" class="btn btn-outline-success"> confirm your order</button><br><br><br>
-                   </div>
-               </form>     
+                    </ul>
+                </nav>
             </div>
 
 
+
+
+            <h2 id="make">Make your Order</h2>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <form id="myform">
+                        <div class="form-group">
+                            <label for="sel1" style="color: wheat; ">Select the kind of food</label>
+                            <select class="form-control" id="food" style="background-color: transparent;">
+                                <option value="1">CHEESE BURGER </option>
+                                <option value="2">GREEK SALAD WITH CHICKEN</option>
+                                <option value="3">PAPRIKA CHIPS</option>
+                                <option value="4">YELLOW RICE</option>
+                                <option value="5">MONGOLIAN BEFF</option>
+                                <option value="6">CHOCOLATE COOKIES</option>
+                                <option value="7">ROAST CHICKEN WITH LEMON</option>
+                                <option value="8">POTATOES CHIPS</option>
+                                <option value="9">GRILLED SWEET POTATOES</option>
+
+                            </select>
+                        </div>
+
+
+
+                        <div class="form-group" required>
+                            <label for="sel1" style="color:wheat;">The number of plates you want</label>
+                            <input type="number" id="quantity" class="form-control" min="1" required>
+                        </div>
+
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-outline-success"> Confirm your
+                                order</button><br><br><br>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6">
+
+                    <p style="color: wheat;"> If you want the food to be delivered, please fill this form:</p>
+                    <form id="delivery">
+                        <div class="form-group">
+                            <label for="name" style="color: wheat;"> Enter your full names</label>
+                            <input type="text" id="names" class="form-control"
+                                placeholder="......please enter your full name..." required>
+                        </div>
+                        <div class="form-group">
+                            <label for="location" style="color: wheat;">Enter your location</label>
+                            <input type="text" id="location" class="form-control"
+                                placeholder="....sector and street number...." required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone number" style="color: wheat;">Enter your phone number</label>
+                            <input type="number" class="form-control" id="number" placeholder="......07xxxxxxxx......."
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" id="button" class="btn btn-outline-success">Send</button>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
 
+   
 
-               <div class="social">
-        
-                <a href="#" class="fa fa-google"></a>
-                <a href="#" class="fa fa-linkedin"></a>
-                <a href=# class="fa fa-youtube"></a>
-                <a href="" class="fa fa-facebook"></a>
-                <a href="" class="fa fa-instagram"></a>
-            
-        </div>
-           
+
+
+    <div class="social">
+
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href=# class="fa fa-youtube"></a>
+        <a href="" class="fa fa-facebook"></a>
+        <a href="" class="fa fa-instagram"></a>
+
+    </div>
+
 
 </body>
+
 </html>
