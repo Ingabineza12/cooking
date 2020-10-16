@@ -5,8 +5,8 @@
  This is COOK WITH US website with its  online order and delivery services,checkout the recipes of different kinds of food you like and do it yourself.U know kitchen is fun with hands on.. This website is just an answer to all the hardships you think will pop out on the way cause you just have to know want you want prepare then visit our website for the pathway. 
 ### contributors
 * Deborah Mugiraneza Ingabire 
-*  Ritha   Umutoni
-* Joseylne Ingabire
+* Umutoni Marie Ritha
+* Joselyne Ingabire
 * olive kaitesi 
 * Claudine Kuradusenge
 ## Technologies used
